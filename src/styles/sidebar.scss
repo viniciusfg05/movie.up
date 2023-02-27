@@ -21,12 +21,25 @@ nav.sidebar {
       display: inline;
       color: var(--white);
     }
-  }
 
+  }
+  
   .buttons-container {
     display: flex;
     flex-direction: column;
-
+    
     width: 100%;
+  }
+
+  @media (max-width: 720px)
+  {
+    max-width: 12rem;
+
+    padding: 1rem;
+
+    span {
+      font-size: 2rem;
+    }
+
   }
 }
